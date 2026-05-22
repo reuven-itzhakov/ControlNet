@@ -1,0 +1,49 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by ControlNet.rc
+
+#define IDS_APP_TITLE			103
+
+#define IDM_SETTINGS            3000
+#define IDR_MAINFRAME			128
+#define IDD_CONTROLNET_DIALOG	102
+#define IDD_ABOUTBOX			103
+#define IDM_ABOUT				104
+#define IDM_EXIT				105
+#define IDI_CONTROLNET			107
+#define IDI_SMALL				108
+#define IDC_CONTROLNET			109
+#define IDC_MYICON				2
+#ifndef IDC_STATIC
+#define IDC_STATIC				-1
+#endif
+// Next default values for new objects
+//
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+
+#define _APS_NO_MFC					130
+#define _APS_NEXT_RESOURCE_VALUE	129
+#define _APS_NEXT_COMMAND_VALUE		32771
+#define _APS_NEXT_CONTROL_VALUE		1000
+#define _APS_NEXT_SYMED_VALUE		110
+#endif
+#endif
+
+#define IDD_SETTINGS_DIALOG 2000
+#define IDC_SETTINGS_SAVE   2001
+#define IDC_SETTINGS_CANCEL 2002
+#define IDC_HOTKEY_MODIFIER 100
+#define IDC_HOTKEY_KEY      101
+#define IDC_SETTINGS_TAB    3001
+#define IDC_USER_SIGNIN     4004
+#define IDC_USER_SIGNOUT    4006
+#define IDC_USER_EMAIL_EDIT        4002
+#define IDC_USER_PASSWORD_EDIT     4003
+#define IDC_USER_EMAIL_LABEL       4007
+#define IDC_USER_PASSWORD_LABEL    4008
+#define IDC_USER_SIGNEDIN_EMAIL_EDIT 4005
+#define IDC_USER_SIGNEDIN_LABEL    4009
+#define IDD_SETTINGS_HOTKEY 2100
+#define IDD_SETTINGS_USER 2101
+#define IDD_SETTINGS_PROGRAM 2102

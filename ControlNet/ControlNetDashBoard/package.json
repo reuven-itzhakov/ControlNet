@@ -1,0 +1,22 @@
+{
+  "name": "controlnet-dashboard",
+  "version": "1.0.0",
+  "description": "Full-stack ControlNet Dashboard with React frontend and Express backend",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd front && npm run dev",
+    "dev:backend": "cd back && npm run dev",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:frontend": "cd front && npm run dev",
+    "start:backend": "cd back && npm start",
+    "build": "cd front && npm run build",
+    "install:all": "npm install && cd front && npm install && cd ../back && npm install",
+    "clean": "cd front && rmdir /s /q node_modules && cd ../back && rmdir /s /q node_modules"
+  },
+  "keywords": ["react", "express", "vite", "tailwind", "full-stack"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
